@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.Main {
+    /* background-color: white; */
+    margin-left: 14px;
+    min-height: 86vh;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.company {
+    /* box-shadow: 0 2px 4px rgb(0 0 0 / 8%); */
+    border-bottom: 2px solid rgba(0, 0, 0, .08);
+    padding: 15px;
+    height: 140px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.p span {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.body {
+    min-height: 67vh;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+    border-bottom: 2px solid rgba(0, 0, 0, .08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body2 {
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: ; */
+    gap: 15px;
+}
+
+.footer {
+    display: flex;
+    padding: 15px;
+    justify-content: flex-end;
+}
+
+.desc {
+    line-height: 2;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.footer button {
+    background-color: #045cbb;
+    border-radius: 4px;
+    color: white;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companyName {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #085ff7;
+    ;
+}
+
+@media only screen and (max-width: 764px) {
+    .Main {
+        margin: 20px 15px;
+        min-height: 85vh;
+
+    }
+}

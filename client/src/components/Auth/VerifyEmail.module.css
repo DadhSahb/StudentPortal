@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto Flex', sans-serif; */
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EmailVerifyImage {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    min-height: 64.36px;
+}
+
+.EmailVerifyImage img {
+    width: 75px;
+    height: 64px;
+}
+
+.EmailVerifyContainer {
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    height: 40vh;
+    width: 40vw;
+    min-width: 320px;
+    /* min-height: 400px;
+  max-width: 300px;
+  max-height: 450px; */
+    margin-top: 100px;
+}
+
+.Button {
+    /* margin: 0 0 0.7rem 0; */
+    background-color: var(--primary-color);
+    align-self: center;
+    border: 1px solid var(--primary-color);
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 7px 20px;
+    text-decoration: none;
+    /* font-family: 'Roboto Flex', sans-serif; */
+}
+
+.p {
+    /* color: var(--primary); */
+    /* font-family: 'Roboto Flex', sans-serif; */
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 100;
+    text-align: center;
+    /* background-color: aqua; */
+}

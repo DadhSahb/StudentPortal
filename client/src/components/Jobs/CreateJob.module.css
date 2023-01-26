@@ -1,0 +1,107 @@
+.Main {
+    background-color: white;
+    margin-left: 14px;
+    min-height: 86vh;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 30%; */
+    align-items: flex-start;
+    width: 100%;
+    background-color: white;
+}
+
+.input {
+    width: 20%;
+    min-width: 200px !important;
+}
+
+.h1 {
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    line-height: 1.625;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.0075em;
+    opacity: 1;
+    text-transform: none;
+    vertical-align: unset;
+    text-decoration: none;
+    /* color: rgb(255, 255, 255); */
+}
+
+.input2 {
+    width: 15%;
+    min-width: 100px !important;
+}
+
+.inputDescription {
+    width: 45%;
+    min-width: 230px !important;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.footer button {
+    /* position: relative; */
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0px;
+    border: 0px;
+    margin: 0px;
+    cursor: pointer;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: 0.02857em;
+    min-width: 64px;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+    user-select: none;
+    transition: all 150ms ease-in 0s;
+    min-height: 2.5rem;
+    padding: 0.625rem 1.5rem;
+    background-image: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+    background-position-y: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(52 71 103 / 15%) 0rem 0.1875rem 0.1875rem 0rem, rgb(52 71 103 / 20%) 0rem 0.1875rem 0.0625rem -0.125rem, rgb(52 71 103 / 15%) 0rem 0.0625rem 0.3125rem 0rem;
+    background-size: 150% !important;
+    background-position-x: 25% !important;
+    background: rgb(4, 75, 122);
+    background: linear-gradient(90deg, rgba(4, 75, 122, 1) 2%, rgba(4, 99, 119, 1) 100%);
+}
+
+@media only screen and (max-width: 764px) {
+    .Main {
+        margin: 20px 15px;
+        min-height: 85vh;
+
+    }
+}
